@@ -218,7 +218,8 @@ input[type="checkbox"]:disabled:checked:after, .checkbox-inline input[type="chec
  */
 .form-content {
   color: #fff;
-  margin-top: 20px; }
+  margin-top: 20px;
+  padding-bottom: 10px; }
 
 .info-form {
   color: #fff;
@@ -228,7 +229,8 @@ input[type="checkbox"]:disabled:checked:after, .checkbox-inline input[type="chec
     color: #000;
     height: 40px;
     -webkit-border-radius: 4px;
-            border-radius: 4px; }
+            border-radius: 4px;
+    width: 100px; }
   .info-form .checkbox label {
     display: -webkit-box;
     display: -webkit-flex;
@@ -247,6 +249,20 @@ input[type="checkbox"]:disabled:checked:after, .checkbox-inline input[type="chec
       margin-right: 10px; }
     .info-form .form-calendar .form-group:last-child {
       margin-left: 10px; }
+    .info-form .form-calendar .date {
+      color: #000; }
+  .info-form .primary-button {
+    background-color: #4183D7; }
+  .info-form .country-select {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
 
 .checkbox {
   margin-top: 0; }
