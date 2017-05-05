@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/jquery.mmenu.all.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300i,400,400i,500,500i,700,700i,900" rel="stylesheet">
-
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -44,7 +43,7 @@
     </div>
     <div id="mobile-menu">
         <ul class="list-unstyled mobile-menu">
-            <li class="mobile-menu-link">
+            <li class="mobile-menu-link mobile-logo">
                 <a href="" class="logo-link">
                     <img class="logo" src="img/pnc.png" alt="">
                 </a>
@@ -86,7 +85,7 @@
                 </a>
             </li>
             <li class="mobile-menu-link">
-                <a href="travel.html">
+                <a href="">
                     <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
                     <h4>Locations</h4>
                 </a>
@@ -109,51 +108,64 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-12">
-            <div class="rewards main-content">
-                <ul class="list-unstyled panel-list">
-                    <li class="panel-item">
-                        <a href="">
-                            <div class="panel-header">
-                                <h4>Visa<span class="trademark">TM</span><p class="card-type">Debit Card</p></h4>
-                                <p>PNC Purchase Payback Balance: $15</p>
+            <div class="form-content">
+                <h5 class="text-cener text-primary">You may use this process to notify us of domestic or international travel. A travel notification can be submitted no more than
+                    2 years in advance of your travel date. You can edit your travel notification at any time</h5>
+                <form action="" class="info-form">
+                    <div class="form-group">
+                        <label for="">Select card(s):</label>
+                        <div class="checkbox">
+                            <label><input type="checkbox" value="">Select All Cards</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" value="">points Visa</label>
+                        </div>
+                        <div class="checkbox disabled">
+                            <label><input type="checkbox" value="">Visa Debit Card</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" value="">MasterCard</label>
+                        </div>
+                    </div>
+                    <div class="form-calendar">
+                        <div class="form-group">
+                            <label for="datetimepicker1">Departure Date:</label>
+                            <div class='input-group date' id='datetimepicker1'>
+                                <input type='text' class="form-control" />
+                                <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
                             </div>
-                            <div class="panel-footer">
-                                <button type="button" class="btn">New Offers</button>
-                                <button type="button" class="btn">Active Offers</button>
+                        </div>
+                        <div class="form-group">
+                            <label for="datetimepicker2">Return Date:</label>
+                            <div class='input-group date' id='datetimepicker2'>
+                                <input type='text' class="form-control" />
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
                             </div>
-                        </a>
-                    </li>
-                    <li class="panel-item">
-                        <a href="">
-                            <div class="panel-header">
-                                <h4>Visa<span class="trademark">TM</span><p class="card-type">Debit Card</p></h4>
-                                <p>PNC Purchase Payback Balance: $15</p>
-                            </div>
-                            <div class="panel-footer">
-                                <button type="button" class="btn">New Offers</button>
-                                <button type="button" class="btn">Active Offers</button>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="panel-item">
-                        <a href="">
-                            <div class="panel-header">
-                                <h4>Visa<span class="trademark">TM</span><p class="card-type">Debit Card</p></h4>
-                                <p>PNC Purchase Payback Balance: $15</p>
-                            </div>
-                            <div class="panel-footer">
-                                <button type="button" class="btn">New Offers</button>
-                                <button type="button" class="btn">Active Offers</button>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <select name="country" id="country">
+                            <option value="">Mexico</option>
+                            <option value="">Canada</option>
+                            <option value="">U.K</option>
+                            <option value="">Italy</option>
+                            <option value="">Germany</option>
+                            <option value="">France</option>
+                            <option value="">China</option>
+                            <option value="">Australia</option>
+                        </select>
+                    </div>
+                </form>
+
             </div>
         </div>
     </div>
 </div>
-
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="js/jquery.mmenu.all.min.js"></script>
